@@ -48,7 +48,7 @@ resource "google_compute_health_check" "health" {
 resource "google_compute_instance_group_manager" "manager" {
   name               = "instance-manager-1"
   base_instance_name = "okay"
-  zone               = "us-central1-a"
+  zone               = "us-central1-f"
 
   version {
     instance_template = google_compute_instance_template.temp1.self_link
