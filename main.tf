@@ -1,6 +1,6 @@
 provider "google" {
-  project = "sam-458313"
-  zone    = "us-central1-a"
+  project = "caramel-analogy-462509-k2"
+  zone    = "us-central1-f"
 }
 
 locals {
