@@ -1,5 +1,5 @@
 provider "google" {
-  project = "caramel-analogy-462509-k2"
+  project = "new-project-462710"
   zone    = "us-central1-f"
 }
 
